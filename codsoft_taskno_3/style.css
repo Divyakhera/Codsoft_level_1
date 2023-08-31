@@ -9,8 +9,9 @@ body {
 }
 
 .calculator {
-    width: 300px;
-    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    background-color: #1884c7;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: grid;
@@ -34,7 +35,7 @@ body {
     font-size: 20px;
     padding: 10px;
     border: none;
-    background-color: #f4f4f4;
+    background-color: #99bcf1;
     cursor: pointer;
     transition: background-color 0.2s;
 }

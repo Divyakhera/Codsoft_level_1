@@ -70,7 +70,69 @@ body {
 }
 
 /* Skills section styles */
-.skills {
+
+ .skills {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding: 4rem 0;
+
+} 
+
+.parent-skill {
+  width: auto;
+  height: auto;
+
+  
+  
+}
+
+.skill {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  box-shadow: 10px 10px 19px #5a5f6a, -10px -10px 19px #5e6368;
+  /* background-color: conic-gradient(#f9004d 10%, #212428 0); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress {
+  width: 97%;
+  height: 97%;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  background: linear-gradient(280deg, #31343c, #3a3e43);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-number {
+  font-family: 'Poppins', sans-serif;
+  color: #f9004d;
+  font-size: 2rem;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  color: #f9004d;
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* .skills {
     padding: 4rem 0;
     text-align: center;
     background-color: #fff;
@@ -83,7 +145,7 @@ body {
 
 .skills li {
     margin: 0.5rem 0;
-}
+} */
 
 
 
